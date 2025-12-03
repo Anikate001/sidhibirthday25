@@ -1,0 +1,24 @@
+/* App-specific styles */
+
+/* Ensure smooth transitions and minimal layout shift */
+* {
+  box-sizing: border-box;
+}
+
+/* Main layout adjustments */
+@media (max-width: 768px) {
+  main {
+    width: 100% !important;
+    margin: 0 auto !important;
+    padding: 1rem;
+  }
+}
+
+/* Accessibility: ensure content is readable and navigable */
+main {
+  outline: none;
+}
+
+main:focus-within {
+  /* subtle indicator for keyboard users */
+}
